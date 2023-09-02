@@ -5,6 +5,8 @@
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -20,13 +22,20 @@ body {
 }
 
 .container {
-  margin: 30px auto;
-  width: 350px;
+  margin: 17px auto;
+  width: 450px;
 }
 
 h1 {
   letter-spacing: 1px;
   margin: 0;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+  color: #9c88ff;
+  text-decoration:underline;
+  font-weight: 900;
 }
 
 h3 {
@@ -95,7 +104,7 @@ input[type='number'] {
   border: 0;
   display: block;
   font-size: 16px;
-  margin: 10px 0 30px;
+  margin: 7px 0 5px;
   padding: 10px;
   width: 100%;
 }
